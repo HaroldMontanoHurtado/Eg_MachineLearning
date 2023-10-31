@@ -13,6 +13,7 @@ from sklearn.cluster import KMeans
 x1 = np.random.normal(2, 0.5, (50, 2)) # grupo 0
 x2 = np.random.normal(4, 0.5, (50, 2)) # grupo 1
 x3 = np.random.normal(6, 0.5, (50, 2)) # grupo 2
+# normal(valores al rededor, amplitud al rededor del primero valor, (cantidad de valores, numero de columnas))
 x = np.concatenate((x1, x2, x3)) # variable independiente
 
 # Crear y entrenar el modelo de agrupamiento

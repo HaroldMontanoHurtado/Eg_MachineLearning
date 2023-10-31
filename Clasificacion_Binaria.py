@@ -12,6 +12,7 @@ from sklearn.linear_model import LogisticRegression
 # Generar datos sintéticos
 x1 = np.random.normal(2, 1, (50, 2)) # clase 0
 x2 = np.random.normal(4, 1, (50, 2)) # clase 1
+# normal(valores al rededor, amplitud al rededor del primero valor, (cantidad de valores, numero de columnas))
 x = np.concatenate((x1, x2)) # variable independiente
 y = np.array([0] * 50 + [1] * 50) # variable dependiente
 

@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Generar datos sintéticos
-x = np.random.rand(100, 1) # variable independiente
-y = 3 + 5 * x + np.random.randn(100, 1) # variable dependiente con ruido
+x = np.random.rand(100, 1) # variable independiente (lista de valores > 0 y < 1)
+y = 3 + 50 * x + np.random.randn(100, 1) # variable dependiente con ruido
 
 # Crear y entrenar el modelo de regresión lineal
 model = LinearRegression()
